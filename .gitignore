@@ -1,0 +1,34 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+_pycache_/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE (PyCharm)
+.idea/
+
+# Sistema operacional (Windows)
+Thumbs.db
+desktop.ini
+*.ink
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Variáveis de ambiente
+.env
+
+# Arquivos grandes desnecessários (com mais de 100MB)
+*.zip
+*.tar.gz
+
+# IA GENERATION
+CLAUDE.md
+.claude/
