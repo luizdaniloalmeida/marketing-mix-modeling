@@ -30,11 +30,11 @@ import pandas as pd
 #   - slope: inclinação da curva Hill (quão rápido satura)
 
 DEFAULT_CHANNEL_PARAMS: dict[str, dict[str, float]] = {
-    "meta_ads": {"decay": 0.4, "half_saturation": 20_000, "slope": 2.0},
-    "google_ads": {"decay": 0.2, "half_saturation": 15_000, "slope": 2.5},
-    "linkedin_ads": {"decay": 0.5, "half_saturation": 8_000, "slope": 1.8},
-    "email_marketing": {"decay": 0.3, "half_saturation": 5_000, "slope": 2.0},
-    "content_organic": {"decay": 0.7, "half_saturation": 3_000, "slope": 1.5},
+    "meta_ads":        {"decay": 0.55, "half_saturation": 18_000, "slope": 1.5},
+    "google_ads":      {"decay": 0.30, "half_saturation": 12_000, "slope": 1.8},
+    "linkedin_ads":    {"decay": 0.60, "half_saturation": 8_000,  "slope": 1.3},
+    "email_marketing": {"decay": 0.20, "half_saturation": 3_000,  "slope": 2.0},
+    "content_organic": {"decay": 0.70, "half_saturation": 2_500,  "slope": 2.5},
 }
 
 

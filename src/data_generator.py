@@ -271,7 +271,7 @@ def generate_marketing_data(
     is_holiday = _flag_feriados(datas)
 
     # Índice competitivo: concorrentes investem mais em picos sazonais
-    competitor_spend_index = sazonalidade * rng.normal(1.0, 0.10, n_weeks)
+    competitor_spend_index = sazonalidade * rng.normal(1.0, 0.07, n_weeks)
     competitor_spend_index = np.clip(competitor_spend_index, 0.7, 1.6)
 
     # -------------------------------------------------------------------
@@ -289,7 +289,7 @@ def generate_marketing_data(
     # 5) Receita final: baseline + canais + efeitos + ruído
     # -------------------------------------------------------------------
     # Baseline entre R$ 80k e R$ 120k (vendas orgânicas não atribuíveis)
-    baseline = rng.uniform(80_000, 120_000, size=n_weeks)
+    baseline = rng.uniform(95_000, 105_000, size=n_weeks)
 
     # Aplica sazonalidade sobre o baseline (mercado como um todo se move)
     baseline_sazonal = baseline * sazonalidade
@@ -304,7 +304,7 @@ def generate_marketing_data(
     pressao_competitiva = (competitor_spend_index - 1.0) * 15_000
 
     # Ruído gaussiano multiplicativo (~12% de variação)
-    ruido = rng.normal(1.0, 0.12, size=n_weeks)
+    ruido = rng.normal(1.0, 0.03, size=n_weeks)
 
     revenue = (
         baseline_sazonal
