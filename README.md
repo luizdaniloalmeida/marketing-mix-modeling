@@ -175,10 +175,9 @@ MarketingMixModeling/
 
 **Luiz Danilo de Almeida**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luizdanilodealmeida/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luizdaniloalmeida/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/luizdanilo)
 [![Email](https://img.shields.io/badge/Email-luizdanilo078%40gmail.com-FF6B35)](mailto:luizdanilo078@gmail.com)
 
 ---
 
-*Projeto desenvolvido como portfólio de Data Science & Marketing Analytics.*
