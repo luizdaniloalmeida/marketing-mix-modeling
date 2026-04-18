@@ -131,5 +131,4 @@ Este projeto foi feito com dados sintéticos para fins de portfólio. Algumas li
 
 ### Conceitos
 
-- Hill, A.V. (1910). *The possible effects of the aggregation of the molecules of haemoglobin on its dissociation curves*. Journal of Physiology.
 - Broadbent, S. (1979). *One at a Time: A Media Scheduling Model*. Sobre adstock geométrico.
